@@ -1,0 +1,95 @@
+/*General*/
+
+:root {
+   --david: #ffacac;
+   --gene: #dfbaff;
+   --juanpi: #bec9ff;
+   --shagi: #c2efff;
+   --index: #dddddd;
+
+}
+
+h1 {
+   text-align: center;
+}
+
+.foto {
+   display: block;
+   margin: auto;
+   border: 3px solid black;
+   height: 200px;
+   width: 200px;
+
+}
+
+body {
+   margin: 0;
+   font-family: sans-serif;
+   background-color: var(--index);
+}
+
+iframe {
+   width: 600;
+   height: 450;
+   border-style: 0;
+}
+
+div {
+   background-color: white;
+   margin: 0 20em;
+   padding: 1em 5em;
+   border-radius: 1em;
+   margin-bottom: 2em;
+}
+
+.li {
+   list-style: none;
+   padding-inline: 0;
+   
+   margin: 2em;
+   padding: 1em;
+   border-radius: 1em;
+   text-align: center;
+   font-weight: bold;
+}
+a {
+   text-decoration: none;
+   color: #000;
+}
+
+/*Header*/
+header {
+   background-color: #203966;
+   color: #fff;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 2em;
+
+}
+
+.back {
+   width: 10%;
+}
+
+.ito {
+   margin: 0;
+}
+
+/*Colores*/
+.david {
+   background-color: var(--david);
+}
+
+.gene {
+   background-color: var(--gene);
+}
+
+.juanpi {
+   background-color: var(--juanpi);
+}
+
+.shagi {
+   background-color: var(--shagi);
+}
